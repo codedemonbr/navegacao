@@ -2,7 +2,7 @@ import React from "react";
 import { SafeAreaView, StatusBar } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 
-import Tab from "./Tab";
+import Drawer from './Drawer'
 
 export default (props) => (
     <SafeAreaView style={{ flex: 1 }}>
@@ -14,7 +14,7 @@ export default (props) => (
             networkActivityIndicatorVisible={true}
         />
         <NavigationContainer>
-            <Tab  />
+            <Drawer  />
         </NavigationContainer>
     </SafeAreaView>
 );
